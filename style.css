@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  margin-left: 35px;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: transparent; 
+  color: #FFF;
+}
+
+.img3, .img1 {
+  margin-left: 30px;
+}
+
+.image {
+  width: 80px;
+  margin-right: 100px;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.nav-links {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.link2 {
+  background-color: #4394FD;
+  color: #FFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.Vinto {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.Myses h1 {
+  font-size: 36px;
+  color: #1A1A2E;
+  margin: 25px 0 0 30px;
+}
+
+.img4 {
+  height: 250px;
+  margin-right: 100px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button3 {
+  background-color: #4394FD;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.button4 {
+  background-color: #B2DEE8;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.card {
+  background-color: #4180d2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+}
+
+.session1 {
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: calc(50% - 10px); 
+  margin-bottom: 20px; }
+
+
+.session {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  gap: 20px;
+}
+
+.session1 img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.Mince {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.repertoire {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 110px; 
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+
+.deposit{
+  margin: 40px 0;
+}
+
+.img {
+  width: 20%; 
+  height: 180px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.livres {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.article-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+.title {
+  font-weight: bold;
+  color: #1A1A2E;
+}
